@@ -1,0 +1,4 @@
+requires="num"
+version="1.0.3"
+archive(byte)="ocs.cma"
+archive(native)="ocs.cmxa"

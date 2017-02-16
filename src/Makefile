@@ -53,5 +53,11 @@ clean:
 depend:
 	$(OCAMLDEP) *.ml *.mli > .depend
 
+install:
+	ocamlfind install ocs META *.cmi *.mli *.o *.cmx *.cma *.cmxa *.a
+
+uninstall:
+	ocamlfind remove ocs
+
 include .depend
 
