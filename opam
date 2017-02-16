@@ -1,10 +1,10 @@
 opam-version: "1.2"
 name: "ocs"
 version: "1.0.3"
-maintainer: "Dmitrii Kashin <d.kashin@solarsecurity.ru>"
+maintainer: "Dmitrii Kashin <freehck@freehck.ru>"
 authors: "Erick Tryzelaar <idadesub@users.sourceforge.net>"
-homepage: "https://github.com/felix-lang/ocs"
-bug-reports: "https://github.com/felix-lang/ocs/issues"
+homepage: "https://github.com/freehck/ocs"
+bug-reports: "https://github.com/freehck/ocs/issues"
 license: "BSD"
 build: [
   [make "-C" "src"]
